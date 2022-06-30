@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build"
+  command = "npm install llhttp && npm run build"
   publish = "build"
 
 [context.production]
